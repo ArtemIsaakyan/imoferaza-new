@@ -1,0 +1,96 @@
+.main-section {
+    background-image: url('../img/main-section/bg.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 15px 0 15px;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 1280px;
+        height: 596px;
+        background-image: url('../img/main-section/orange.png');
+        top: 0;
+        right: 0;
+    }
+}
+
+
+.main-section__orange {
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
+
+.main-section__blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-section__girl {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.main-section__title {
+    margin-bottom: 20px;
+}
+
+.main-section__text {
+    grid-column-start: 2;
+    padding-left: 200px;
+    padding-top: 80px;
+    position: relative;
+    z-index: 3;
+}
+
+.main-section__description {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 110%;
+    margin-bottom: 50px;
+}
+
+.main-section__wherebuy {
+    background: #E36626;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 21px;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+.main-section__motto {
+    position: absolute;
+    left: 10%;
+    bottom: 30px;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 90%;
+    z-index: 6;
+}
+
+@media all and (max-height: 850px) {
+    .main-section__girl {
+        width: 640px;
+        height: 620px;
+    }
+
+    .main-section__preparat {
+        width: 350px;
+        height: 368px;
+    }
+
+    .main-section__text {
+        padding-left: 170px;
+        padding-top: 0;
+    }
+}
+

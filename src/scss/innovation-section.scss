@@ -1,0 +1,34 @@
+.innovation-section {
+    background-color: #DADADA;
+    padding: 134px 15px 0 15px;
+    position: relative;
+}
+
+.innovation-section__title {
+    text-align: center;
+}
+
+.innovation-section__description {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 90%;
+    text-align: center;
+    padding: 30px 0 68px 0;
+}
+
+.innovation-section__video {
+    display: flex;
+    margin: 0 auto;
+    border-radius: 46px;
+    z-index: 2;
+    position: relative;
+    max-width: 860px;
+    width: 100%;
+}
+
+.innovation-section__bactery {
+    position: absolute;
+    bottom: -338px;
+    right: 0;
+    z-index: 1;
+}

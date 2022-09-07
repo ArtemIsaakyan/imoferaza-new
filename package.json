@@ -1,0 +1,28 @@
+{
+	"name": "blank_vite",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"engines": {
+		"node": "16.16.0"
+	},
+	"browserslist": [
+		"last 1 version",
+		"> 1%"
+	],
+	"devDependencies": {
+		"autoprefixer": "^10.4.8",
+		"postcss": "^8.4.16",
+		"sass": "^1.54.4",
+		"vite": "^3.0.7"
+	},
+	"dependencies": {
+		"swiper": "^8.3.2",
+		"vanilla-lazyload": "^17.8.3"
+	}
+}

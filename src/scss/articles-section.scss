@@ -1,0 +1,103 @@
+.articles-section {
+    background-color: #DADADA;
+    padding: 163px 15px 0 15px;
+    position: relative;
+}
+
+.articles-section__bactery {
+    position: absolute;
+    right: 0;
+    top: -606px;
+}
+
+.articles-section__blocks {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.articles-section__block {
+    background-color: #fff;
+    border-radius: 46px;
+    padding: 45px;
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    &-1 {
+        background-image: url('../img/articles-section/bg-article.png');
+    }
+    &-2 {
+        background-image: url('../img/articles-section/high-activity.png');
+        justify-content: end;
+    }
+    &-3 {
+        background-image: url('../img/articles-section/effect.png');
+        justify-content: end;
+    }
+    &-4 {
+        background-image: url('../img/articles-section/problems.png');
+        justify-content: end;
+    }
+    &-5 {
+        background-image: url('../img/articles-section/unique.png');
+        justify-content: end;
+    }
+    &-6 {
+        background-image: url('../img/articles-section/preparation.png');
+        justify-content: end;
+    }
+}
+
+.articles-section__title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 90%;
+}
+
+.articles-section__all-articles {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 90%;
+}
+
+.articles-section__description {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 90%;
+}
+
+@media screen and (max-width: 1174px) {
+    .articles-section__blocks {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .articles-section__block {
+        padding: 30px;
+    }
+
+    .articles-section__block-1 {
+        background-position: left;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .articles-section__blocks {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .articles-section__block {
+        padding: 25px;
+    }
+}
+

@@ -1,0 +1,161 @@
+.comfort-section {
+    background-color: #DADADA;
+    padding: 0 15px;
+    position: relative;
+}
+
+.comfort-section__bactery {
+    position: absolute;
+    left: 0;
+    top: -90px;
+    z-index: 1;
+} 
+
+.comfort-section__title {
+    text-align: center;
+    padding: 75px 0;
+    z-index: 2;
+    position: relative;
+}
+
+.comfort-section__blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    z-index: 3;
+}
+
+.comfort-section__white {
+    position: absolute;
+    left: calc(30% - 375px);
+    top: 77px;
+    z-index: 1;
+}
+
+.comfort-section__preparat {
+    position: relative;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.comfort-section__text {
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+}
+
+.comfort-section__block {
+    display: flex;
+    width: 303px;
+    position: relative;
+}
+
+.comfort-section__block:first-child .comfort-section__name {
+    left: 15%;
+}
+
+.comfort-section__name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+    position: absolute;
+    left: 22%;
+    bottom: 79px;
+}
+
+.comfort-section__count {
+    font-weight: 800;
+    font-size: 150px;
+    line-height: 90%;
+    background: linear-gradient(180deg, #FF9351 0%, rgba(255, 147, 81, 0) 81.13%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.comfort-section__buble {
+    &-1:before {
+        content: '';
+        position: absolute;
+        width: 130px;
+        height: 121px;
+        left: -58px;
+        background-image: url('../img/comfort-section/buble-1.svg');
+        background-repeat: no-repeat;
+        opacity: 0;
+    }
+    &-2:before {
+        content: '';
+        position: absolute;
+        width: 130px;
+        height: 100px;
+        left: -16px;
+        background-image: url('../img/comfort-section/buble-2.svg');
+        background-repeat: no-repeat;
+        opacity: 0;
+    }
+    &-3:before {
+        content: '';
+        position: absolute;
+        width: 140px;
+        height: 100px;
+        left: -45px;
+        background-image: url('../img/comfort-section/buble-3.svg');
+        background-repeat: no-repeat;
+        opacity: 0;
+    }
+    &-4:before {
+        content: '';
+        position: absolute;
+        width: 130px;
+        height: 100px;
+        left: -17px;
+        background-image: url('../img/comfort-section/buble-4.svg');
+        background-repeat: no-repeat;
+        opacity: 0;
+    }
+    &-5:before {
+        content: '';
+        position: absolute;
+        width: 130px;
+        height: 100px;
+        left: -33px;
+        background-image: url('../img/comfort-section/buble-5.svg');
+        background-repeat: no-repeat;
+        opacity: 0;
+    }
+    &-6:before {
+        content: '';
+        position: absolute;
+        width: 140px;
+        height: 103px;
+        left: -50px;
+        background-image: url('../img/comfort-section/buble-3.svg');
+        background-repeat: no-repeat;
+        opacity: 0;
+    }
+}
+
+.comfort-section__block:hover {
+    .comfort-section__buble-1:before,
+    .comfort-section__buble-2:before,
+    .comfort-section__buble-3:before,
+    .comfort-section__buble-4:before,
+    .comfort-section__buble-5:before,
+    .comfort-section__buble-6:before {
+        opacity: 1;
+        transition: opacity 200ms ease-in-out;
+    }
+}
+
+
+@media screen and (max-width: 1174px) {
+    .comfort-section__text {
+        grid-template-columns: repeat(2, 290px);
+    }
+
+    .comfort-section__preparat {
+        margin: 0 auto 0 0;
+    } 
+}
+
+

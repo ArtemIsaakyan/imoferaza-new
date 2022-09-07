@@ -1,0 +1,54 @@
+// Main Site Layout
+input:not([type="checkbox"]):not([type="radio"]),
+textarea,
+select,
+button {
+	font-family: $main-font;
+}
+
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+  }  
+
+body {
+	font-family: $main-font;
+	background: $color-background;
+	color: $color-text;
+	font-weight: 400;
+}
+
+
+a {
+	color: $color-text;
+	text-decoration: none;
+}
+
+.wrapper {
+	max-width: $block-max-width;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.main-title {
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 90%;
+}
+
+.bold-text {
+	font-weight: 800;
+}
+
+.violet-text {
+	color: $color-violet;
+}
+
+.orange-text {
+	color: $color-orange;
+}

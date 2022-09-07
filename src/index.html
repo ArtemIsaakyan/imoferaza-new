@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no;">
+		<script>
+			window.uteka = window.uteka || {}
+			window.uteka._host = 'widget.uteka.ru',
+			window.uteka._queue = []
+			window.uteka._loaded = false
+			window.uteka.onReady = function (callback) {
+			  if (window.uteka._loaded) {
+				return callback()
+			  }
+		  
+			  window.uteka._queue.push(callback)
+			}
+		  
+			var script = document.createElement('script')
+			script.src = 'https://' + window.uteka._host + '/static/widgets/widget.compiled.js?l=' + Date.now()
+			script.async = true
+			script.addEventListener('load', function () {
+			  window.uteka._loaded = true
+			  window.uteka._queue.forEach(function (callback) {
+				callback()
+			  })
+			})
+		  
+			document.head.appendChild(script)
+
+			window.uteka.onReady(function () {
+  				var widget = document.querySelector('.uteka-widget')
+  				window.uteka.loadWidget(widget, {
+  				  productId: '322657'
+  				})
+			})
+		</script>
+		<title>Имофераза</title>
+	</head>
+	<body>
+		<div>
+			<header class="header">
+				<div class="header__container">
+					<div class="header__body">
+					  <a href="#" class="header__logo">
+						<img src="./img/logo/header-logo.png" width="190" height="80" alt="Официальный сайт производителя - Имофераза" srcset="">
+					  </a>
+					  <nav class="header__menu">
+						<ul class="header__list" data-links="header-links">
+						  <li>
+							<a href="#about" data-id="about" class="header__link">О креме</a>
+						  </li>
+						  <li>
+							<a href="#trouble" data-id="trouble" class="header__link">О проблемах</a>
+						  </li>
+						  <li>
+							<a href="#instruction" data-id="instruction" class="header__link">Инструкция</a>
+						  </li>
+						  <li>
+							<a href="#articles" data-id="instruction" class="header__link">Статьи</a>
+						  </li>
+						  <li class="header__btn-buy">
+							<a href="#wherebuy" data-id="instruction" class="header__btn-wherebuy">Где купить</a>
+						  </li>
+						</ul>
+					  </nav>
+					  <div class="header__burger">
+						<span></span>
+					  </div>
+					</div>
+				</div>
+			  </header>
+			  <section class="main-section">
+				<div class="main-section__blocks">
+					<div class="main-section__left-block parallax">
+						<img class="parallax-elements parallax-ellipse parallax-ellipse__orange" data-speed="0.01" src="./img/main-section/ellipse-orange.png" alt="">
+						<img class="parallax-elements parallax-ellipse parallax-ellipse__blue" data-speed="0.02" src="./img/main-section/ellipse-blue.png" alt="">
+						<img class="main-section__girl" src="./img/main-section/girl2.png" width="875" height="850" alt="girl">
+						<img class="parallax-elements parallax-el main-section__back-blue" data-speed="0.03" src="./img/main-section/back-blue.png" alt="">
+						<img class="parallax-elements parallax-el main-section__back-orange" data-speed="0.05" src="./img/main-section/back-orange.png" alt="">
+						<img class="parallax-elements parallax-el main-section__back-blue-top"  data-speed="0.02" src="./img/main-section/back-blue-top.png" alt="">
+						<img class="parallax-elements parallax-el main-section__front-orange" data-speed="0.04" src="./img/main-section/front-orange.png" alt="">
+						<img class="parallax-elements parallax-el main-section__front-orange-top" data-speed="0.03" src="./img/main-section/front-orange-top.png" alt="">
+					</div>
+
+					<div class="main-section__text">
+						<h1 class="main-section__title main-title">Инновационное<br> средство</h1>
+						<p class="main-section__description">для ухода за сформировавшимися шрамами,<br> рубцами и поврежденной кожей.</p>
+						<a class="main-section__wherebuy" href="#wherebuy">Где купить</a>
+						<img class="main-section__preparat" src="./img/main-section/preparat.png" width="471" height="448" alt="">
+					</div>
+				</div>
+				<p class="main-section__motto">Пусть воспоминания<br> не оставляют следов<br> на коже</p>
+			  </section>
+			  <section class="analog-section">
+				<div class="analog-section__blocks">
+					<div class="analog-section__text">
+						<h2 class="analog-section__title main-title">Крем Имофераза®<br>не имеет аналогов</h2>
+						<p class="analog-section__description">
+							<img class="analog-section__bubble lazy" src="./img/analog-section/bubble.svg" alt="">
+							<span class="violet-text">Первые эффекты</span> 
+							могут отмечаться <span class="orange-text">через 4 недели</span> 
+							регулярного применения</p>
+						<p class="analog-section__big-description">Стабилизированная гиалуронидаза в составе воздействует 
+							непосредственно на основу шрама и уменьшает вероятность формирования рубца. 
+							Уникальная формула действует на шрамы и рубцы любого срока существования.</p>
+					</div>
+					<img class="analog-section__img-steps lazy" src="./img/analog-section/analog-steps.png" width="853" height="753" alt="">
+				</div>
+				<img class="analog-section__bactery lazy" src="./img/analog-section/bg-bactery.png" width="507" height="896" alt="">
+			  </section>
+			  <section class="recomendation-section">
+				<img class="recomendation-section__line lazy" src="./img/how-work/bg-line2.png" width="1281" height="1281" alt="">
+				<h2 class="recomendation-section__title main-title">Повреждения кожи при которых<br> рекомендуется Имофераза®</h2>
+				<span class="recomendation-section__tatoo">Удаление<br>татуировки</span>
+				<span class="recomendation-section__operation">Операция</span>
+				<span class="recomendation-section__burn">Ожог</span>
+				<span class="recomendation-section__trauma">Травма</span>
+				<span class="recomendation-section__acne">Акне</span>
+				<span class="recomendation-section__procedure">Коспетологическая<br>процедура</span>
+			</section>
+			<section class="how-work-section">
+				<h2 class="how-work-section__title main-title">Как работает Имофераза®</h2>
+				<div class="how-work-section__container">   
+					<div class="swiper-container how-work-swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide how-work-slide how-work-slide-1">
+								<h3 class="how-work-slide__title">Эффекты<br>применения</h3>
+								<ul class="how-work-list">
+									<li class="how-work-list__text how-work-list__text-reduce">Уменьшает высоту рубца в среднем в 2,1 раза</li>
+									<li class="how-work-list__text how-work-list__text-elastic">Уменьшает эластичность рубца</li>
+									<li class="how-work-list__text how-work-list__text-wave">Повышает увлажненность и выравнивает цвет кожи в области рубца</li>
+								</ul>
+							</div>
+							<div class="swiper-slide how-work-slide how-work-slide-2">
+								<h3 class="how-work-slide__title">Крем Имофераза уменьшает вероятность формирования грубого рубца</h3>
+								<ul class="how-work-list">
+									<li class="how-work-list__text how-work-list__text-star">Уменьшает отечность, покраснение</li>
+									<li class="how-work-list__text how-work-list__text-reload">Восстанавливает защитно-барьерные функции кожи</li>
+									<li class="how-work-list__text how-work-list__text-circle">Способствует уменьшению боли, стянутости, сухости, зуда</li>
+								</ul>
+							</div>
+							<div class="swiper-slide how-work-slide how-work-slide-3">
+								<h3 class="how-work-slide__title">Помогает сделать следы постакне менее заметными</h3>
+								<ul class="how-work-list">
+									<li class="how-work-list__text how-work-list__text-star">Уменьшает покраснение и пигментация</li>
+									<li class="how-work-list__text how-work-list__text-reload">Сглаживает рельеф кожи</li>
+									<li class="how-work-list__text how-work-list__text-circle">Уменьшению боль, стянутость, сухость, зуд</li>	
+								</ul>
+							</div>
+							<div class="swiper-slide how-work-slide how-work-slide-2">
+								<h3 class="how-work-slide__title">Крем Имофераза уменьшает вероятность формирования грубого рубца</h3>
+								<ul class="how-work-list">
+									<li class="how-work-list__text how-work-list__text-star">Уменьшает отечность, покраснение</li>
+									<li class="how-work-list__text how-work-list__text-reload">Восстанавливает защитно-барьерные функции кожи</li>
+									<li class="how-work-list__text how-work-list__text-circle">Способствует уменьшению боли, стянутости, сухости, зуда</li>
+								</ul>
+							</div>
+							<div class="swiper-slide how-work-slide how-work-slide-3">
+								<h3 class="how-work-slide__title">Помогает сделать следы постакне менее заметными</h3>
+								<ul class="how-work-list">
+									<li class="how-work-list__text how-work-list__text-star">Уменьшает покраснение и пигментация</li>
+									<li class="how-work-list__text how-work-list__text-reload">Сглаживает рельеф кожи</li>
+									<li class="how-work-list__text how-work-list__text-circle">Уменьшению боль, стянутость, сухость, зуд</li>	
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>   
+			</section>
+			<section class="comfort-section">
+				<img class="comfort-section__bactery lazy" src="./img/comfort-section/bg-bactery.png" width="291" height="459" alt="">
+				<h2 class="comfort-section__title main-title">Максимальный комфорт<br>в применении</h2>
+				<div class="comfort-section__blocks">
+					<img class="comfort-section__white lazy" src="./img/comfort-section/white.png" alt="">
+					<img class="comfort-section__preparat lazy" src="./img/comfort-section/preparat2.png" width="402" height="570" alt="">
+					<div class="comfort-section__text">
+						<div class="comfort-section__block">
+							<span class="comfort-section__count comfort-section__buble-1">1</span>
+							<p class="comfort-section__name"><span class="bold-text">Быстро</span><br> впитывается</p>
+						</div>
+						<div class="comfort-section__block">
+							<span class="comfort-section__count comfort-section__buble-2">2</span>
+							<p class="comfort-section__name"><span class="bold-text">Не оставляет</span><br> следов на одежде</p>
+						</div>
+						<div class="comfort-section__block">
+							<span class="comfort-section__count comfort-section__buble-3">3</span>
+							<p class="comfort-section__name"><span class="bold-text">Не оставляет</span><br> следов на одежде</p>
+						</div>
+						<div class="comfort-section__block">
+							<span class="comfort-section__count comfort-section__buble-4">4</span>
+							<p class="comfort-section__name">Не требует <span class="bold-text">предварительной подготовки</span> кожи перед нанесением</p>
+						</div>
+						<div class="comfort-section__block">
+							<span class="comfort-section__count comfort-section__buble-5">5</span>
+							<p class="comfort-section__name">Наносится<br><span class="bold-text">2 раза</span> в день</p>
+						</div>
+						<div class="comfort-section__block">
+							<span class="comfort-section__count comfort-section__buble-6">6</span>
+							<p class="comfort-section__name">Продолжительность применения:<br><span class="bold-text">4-8 недель</span></p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="articles-section">
+				<img class="articles-section__bactery lazy" src="./img/articles-section/bg-bactery.png" width="782" height="1401" alt="">
+				<div class="articles-section__blocks">
+					<a class="articles-section__block articles-section__block-1" href="#">
+						<h2 class="articles-section__title">Узнавайте новое о нашем продукте</h2>
+						<p class="articles-section__all-articles">
+							<span>Все статьи</span>
+							<img class="articles-section__arrow lazy" src="./img/articles-section/Arrow.svg" alt="">	 
+						</p>
+					</a>
+					<a class="articles-section__block articles-section__block-2" href="#">
+						<span class="articles-section__description">Высокая ферментативная активность</span>
+					</a>
+					<a class="articles-section__block articles-section__block-3" href="#">
+						<span class="articles-section__description">Эффекты крема</span>
+					</a>
+					<a class="articles-section__block articles-section__block-4" href="#">
+						<span class="articles-section__description">О проблемах</span>
+					</a>
+					<a class="articles-section__block articles-section__block-5" href="#">
+						<span class="articles-section__description">Уникальность имобилизованного фермента</span>
+					</a>
+					<a class="articles-section__block articles-section__block-6" href="#">
+						<span class="articles-section__description">Подготовки кожи перед нанесением</span>
+					</a>
+				</div>
+			</section>
+			<section class="innovation-section">
+				<h2 class="innovation-section__title main-title">Инновационный иммобилизованный<br>
+					<span class="orange-text">фермент гиалуронадаза</span>
+				</h2>
+				<p class="innovation-section__description">Действует непосредственно 
+					<span class="bold-text">на патологическую</span><br>
+					соединительную<span class="bold-text"> ткань</span> рубца
+				</p>
+				<iframe width="860" height="484" class="innovation-section__video" data-lazy-src="https://www.youtube.com/embed/UTyyaC_N-M0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" loading="lazy" src="https://www.youtube.com/embed/UTyyaC_N-M0"></iframe>
+				<img class="innovation-section__bactery lazy" src="./img/innovation-section/bg-bactery.png" width="451" height="810" alt="">
+			</section>
+			<section class="wherebuy-section">
+				<h2 class="wherebuy-section__title main-title">Где купить?</h2>
+				<div class="wherebuy-section__pharmacy">
+					<a class="wherebuy-section__link" href="#">
+						<img src="img/pharmacy/aptekary.png" alt="aptekary">
+					</a>
+					<a class="wherebuy-section__link" href="#">
+						<img src="img/pharmacy/eapteka.png" alt="eapteka">
+					</a>
+					<a class="wherebuy-section__link" href="#">
+						<img src="img/pharmacy/ozon.png" alt="ozon">
+					</a>
+					<a class="wherebuy-section__link" href="#">
+						<img src="img/pharmacy/zdravcity.png" alt="zdravcity">
+					</a>
+				</div>
+				<div class="uteka-widget" id="wherebuy">
+					<div class="uteka-widget-header">
+					  <div class="uteka-widget__container">
+						<div class="uteka-widget-header__inner">
+						  <a
+							class="uteka-widget-header__logo"
+							href="https://uteka.ru/"
+							target="_blank"
+						  >
+							<img
+							  src="https://widget.uteka.ru/static/img/widgets/logo-light.svg"
+							  alt="Заказать в Ютеке"
+							  title="поиск в аптеках"
+							/>
+						  </a>
+						  <div class="uteka-widget-header__title"></div>
+						  <a href="#" class="uteka-widget-header__close"></a>
+						</div>
+					  </div>
+					</div>
+				  
+					<iframe allow="geolocation"></iframe>
+				  </div>
+			</section>
+			<footer class="footer">
+				<div class="footer__blocks">
+					<div class="footer__left-block">
+						<img src="./img/footer/petrovax-logo.png" width="268" height="85" alt="petrovax">
+						<p class="footer__address">
+							Московская область, город Подольск,<br>
+							село Покров, ул. Сосновая, д. 1<br>
+							ООО «НПО Петровакс Фарм»© 2022
+						</p>
+					</div>
+					<ul class="footer__right-block">
+						<li class="footer__link"><a href="#">О креме</a></li>
+						<li class="footer__link"><a href="#">О проблемах</a></li>
+						<li class="footer__link"><a href="#">Инструкция</a></li>
+						<li class="footer__link"><a href="#">Статьи</a></li>
+						<li class="footer__link"><a href="#wherebuy">Где купить</a></li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<script type="module" src="./main.js"></script>
+	</body>
+</html>

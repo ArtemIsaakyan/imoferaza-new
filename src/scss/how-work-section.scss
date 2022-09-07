@@ -1,0 +1,122 @@
+.how-work-section {
+    overflow: hidden;
+    padding: 85px 15px 0 15px;
+    position: relative;
+    background-color: #DADADA;
+}
+
+.how-work-section__container {
+    max-width: 1400px;
+}
+
+.how-work-section__title {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.how-work-swiper {
+    width: 100%;
+}
+
+.how-work-slide {
+    width: 465px;
+    min-height: 325px!important;
+    border-radius: 46px;
+    background-color: #fff;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.how-work-slide__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 110%;
+}
+
+.how-work-list {
+    display: grid;
+    grid-row-gap: 30px;
+    padding-left: 57px;
+}
+
+.how-work-list__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110%;
+}
+
+.how-work-slide {
+    background-repeat: no-repeat;
+    background-position: right top;
+    &-1 {
+        background-image: url('../img/how-work/orange-1.svg');
+    }
+
+    &-2 {
+        background-image: url('../img/how-work/orange-2.svg');
+    }
+
+    &-3 {
+        background-image: url('../img/how-work/orange-3.svg');
+    }
+}
+
+.how-work-list__text-reduce::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 40px;
+    background-image: url('../img/svg-icons/reduce.svg');
+}
+
+.how-work-list__text-elastic::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 40px;
+    background-image: url('../img/svg-icons/elastic.svg');
+}
+
+.how-work-list__text-wave::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 40px;
+    background-image: url('../img/svg-icons/wave.svg');
+}
+
+.how-work-list__text-star::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 40px;
+    background-image: url('../img/svg-icons/star.svg');
+}
+
+.how-work-list__text-reload::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 40px;
+    background-image: url('../img/svg-icons/reload.svg');
+}
+
+.how-work-list__text-circle::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 40px;
+    background-image: url('../img/svg-icons/circle.svg');
+}
+
+

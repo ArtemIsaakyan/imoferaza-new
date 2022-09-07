@@ -1,0 +1,88 @@
+.recomendation-section {
+    background-image: url('../img/recomendation-section/bg-recomendation2.png');
+    min-height: 1060px;
+    background-position: center;
+    background-size: cover;
+    background-position-y: 58%;
+    background-repeat: no-repeat;
+    padding: 55px 15px 0 15px;
+    position: relative;
+
+    &__tatoo {
+        text-align: center;
+        font-weight: 700;
+        font-size: 28px;
+        left: calc(50% - 71px);
+        top: 28%;
+        line-height: 100%;
+        position: absolute;
+    }
+
+    &__operation {
+        text-align: center;
+        font-weight: 700;
+        font-size: 28px;
+        left: calc(50% - 363px);
+        top: 50%;
+        line-height: 100%;
+        position: absolute;
+    }
+
+    &__burn {
+        text-align: center;
+        font-weight: 700;
+        font-size: 28px;
+        left: calc(50% + 249px);
+        top: 51%;
+        line-height: 100%;
+        position: absolute; 
+    }
+
+    &__trauma {
+        text-align: center;
+        font-weight: 700;
+        font-size: 28px;
+        left: calc(50% - 372px);
+        top: 75%;
+        line-height: 100%;
+        position: absolute; 
+    }
+
+    &__acne {
+        text-align: center;
+        font-weight: 700;
+        font-size: 28px;
+        left: calc(50% + 289px);
+        top: 73%;
+        line-height: 100%;
+        position: absolute; 
+    }
+
+    &__procedure {
+        text-align: center;
+        font-weight: 700;
+        font-size: 28px;
+        left: calc(50% - 121px);
+        top: 87%;
+        line-height: 100%;
+        position: absolute; 
+    }
+    
+}
+
+.recomendation-section__line {
+    position: absolute;
+    max-width: 1281px;
+    width: 100%;
+    height: auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -43%);
+    z-index: 1;
+}
+
+.recomendation-section__title {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}

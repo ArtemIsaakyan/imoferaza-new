@@ -1,0 +1,45 @@
+.parallax-el {
+    position: absolute;
+    left: -60px;
+    bottom: 0;
+    transition: transform 200ms linear;
+}
+
+.parallax-ellipse {
+    position: absolute;
+    transition: transform 200ms linear;
+    &__orange {
+        left: 23%;
+        top: 20%;
+        z-index: 1;
+    }
+
+    &__blue {
+        left: 32%;
+        z-index: 1;
+    }
+}
+
+.main-section {
+    &__back-blue {
+        z-index: 1;
+        bottom: -466px;
+    }
+    &__back-orange {
+        z-index: 2;
+        bottom: -11px;
+    }
+    &__back-blue-top {
+        z-index: 3;
+        bottom: -250px;
+    }
+    &__front-orange {
+        bottom: -321px;
+        z-index: 4;
+    }
+    &__front-orange-top {
+        z-index: 5;
+        bottom: -130px;
+    }
+} 
+

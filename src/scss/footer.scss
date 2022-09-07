@@ -1,0 +1,20 @@
+.footer {
+    background-color: #DADADA;
+    padding: 80px 15px;
+    background-image: url('../img/footer/bg-footer.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.footer__blocks {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer__right-block {
+    display: grid;
+    opacity: 0.5;
+}

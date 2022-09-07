@@ -1,0 +1,73 @@
+.analog-section {
+    background-image: url('../img/analog-section/bg-analog2.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 15px 0 15px;
+    position: relative;
+    z-index: 7;
+}
+
+.analog-section__blocks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.analog-section__text {
+    width: 510px;
+    padding-top: 60px;
+    position: absolute;
+    left: 10%;
+}
+
+.analog-section__img-steps {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.analog-section__description {
+    position: relative;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    padding: 40px 0 30px 0;
+}
+
+.analog-section__big-description {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 130%;
+}
+
+.analog-section__bubble {
+    position: absolute;
+    left: -15%;
+    top: 0;
+}
+
+.analog-section__bactery {
+    position: absolute;
+    left: 0;
+    bottom: -48%;
+    z-index: 1;
+}
+
+
+@media all and (max-height: 850px) {
+    .analog-section__text {
+        padding-top: 20px;
+    }
+    
+    .analog-section__img-steps {
+        height: 560px;
+        width: 660px;
+    }
+    .analog-section__bactery {
+        width: 354px;
+        height: 627px;
+        bottom: -45%;
+    }
+}
+

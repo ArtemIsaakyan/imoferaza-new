@@ -1,0 +1,27 @@
+.wherebuy-section {
+    background-color: #DADADA;
+}
+
+.wherebuy-section__title {
+    text-align: center;
+    padding-top: 110px;
+    
+}
+
+.wherebuy-section__pharmacy {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin:0 auto -70px auto;
+    max-width: 1240px;
+    position: relative;
+    z-index: 2;
+}
+
+.wherebuy-section__link {
+    margin: auto 50px auto 0;
+}
+
+.wherebuy-section__link:last-child {
+    margin-right: 0;
+}

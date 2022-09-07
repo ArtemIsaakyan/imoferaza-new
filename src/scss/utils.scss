@@ -1,0 +1,27 @@
+//--------------------
+// SCSS VARIABLES
+//--------------------
+
+//sizes
+$block-max-width: 1480px;
+
+// fonts
+$main-font: "Circe", sans-serif;
+
+// colors
+
+$color-text: #202020;
+$color-violet: hsl(229, 80%, 83%);
+$color-orange: hsl(23, 100%, 66%);
+$color-background: hsl(0, 0%, 100%);
+
+//--------------------
+// SCSS MIXINS
+//--------------------
+
+@mixin center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
